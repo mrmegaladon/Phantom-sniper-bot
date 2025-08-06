@@ -1,0 +1,15 @@
+{
+  "name": "phantom-sniper-bot",
+  "version": "1.0.0",
+  "description": "Solana sniper bot with auto‑sell, rug detection, and Telegram alerts.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.95.0",
+    "axios": "^1.6.0",
+    "dotenv": "^16.0.3",
+    "telegraf": "^4.12.2"
+  }
+}
